@@ -1,0 +1,73 @@
+/* =========================================================
+   Legal / Privacy page — austere, document-style layout
+   ========================================================= */
+.legal {
+  padding: 56px 0 80px;
+  background: #fff;
+}
+.legal__container {
+  max-width: 820px;
+}
+.legal__head {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+.legal h1 {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.25;
+  margin: 0 0 12px;
+  color: var(--ink);
+}
+.legal__lead {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-muted);
+  margin: 0;
+}
+.legal__section {
+  margin: 0 0 28px;
+}
+.legal h2 {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.35;
+  margin: 0 0 12px;
+  color: var(--ink);
+}
+.legal p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: 0 0 12px;
+}
+.legal p:last-child { margin-bottom: 0; }
+.legal__block {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.legal ul {
+  margin: 0 0 12px;
+  padding: 0 0 0 22px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+.legal ul li { margin-bottom: 4px; }
+.legal a {
+  color: var(--accent, #1a73e8);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.legal a:hover { text-decoration: none; }
+
+@media (max-width: 720px) {
+  .legal { padding: 32px 0 56px; }
+  .legal h1 { font-size: 22px; }
+  .legal h2 { font-size: 16px; }
+  .legal p, .legal ul, .legal__block { font-size: 14.5px; }
+}
